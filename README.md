@@ -82,6 +82,6 @@ It does not match my empirical results exactly because big O analysis abtracts t
 
 It would still be 0(k*n) so linear.  **TODO: your answer goes here**
   + For binary search? **TODO: your answer goes here**
- It would be o((n)^2)) becuase the other be quicker.
+ It would be o((n)^2)) becuase n^2 is far larger than $O(log_2(n))$.
   + For what values of $k$ is it more efficient to first sort and then use binary search versus just using linear search without sorting? **TODO: your answer goes here**
-  for large k values it would be more efficient to use binary search versus just using linear search without sorting. for values where (k*n) is (n)^2) 
+  for values where (k*n) is more than (n)^2).
